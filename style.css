@@ -1,0 +1,89 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://media.istockphoto.com/photos/gray-shadow-of-the-leaves-on-a-white-wall-picture-id1162129664?k=20&m=1162129664&s=612x612&w=0&h=vAFQSv65iqKd8XfOEuXm1LXTDWS2_sNfdiZT0LBE8_o=");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+#box {
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.532);
+    margin: 4% auto 4% auto;
+    padding: 30px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 40px rgba(181, 181, 181, 0.718);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 300px;
+    border: 0;
+    background-color: #e7e7e7;
+}
+
+form button {
+    height: 50px;
+    width: 300px;
+    background-color: #ada695;
+    color: #080710;
+    border: 0;
+    align-self: center;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+form h2 {
+    align-self: center;
+    color: #000000;
+    font-size: 36px;
+}
+
+#box p {
+    color: #5a5a5a;
+}
+
+#box a {
+    color: #ada695;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#box #name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#box #name input{
+    width: 140px;
+}
+
+@media screen and (max-width: 1360px) {
+    body {
+      background-image: none;
+      background-color: #ece9e2;
+    }
+
+    #box {
+        width: 90%;
+    }
+  }
